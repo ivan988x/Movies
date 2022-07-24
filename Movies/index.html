@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Movies</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="movies">
+        <div class="movie-card">
+          <img src="/img/killBill.jpg" />
+          <div class="de-content">
+            <div class="movie-title">
+              <h2>Kill Bill: Vol. 1</h2>
+            </div>
+            <div class="desript-1">
+              <p>2003</p>
+              <p>1h 51m</p>
+              <p>Action / Crime</p>
+            </div>
+            <div class="descript-2">
+              <p>
+                After awakening from a four-year coma, a former assassin wreaks
+                vengeance on the team of assassins who betrayed her.
+              </p>
+            </div>
+            <div class="stars">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star" style="color: white"></span>
+            </div>
+            <div class="button">
+              <button onclick="watchMovie(this)">Watch</button>
+            </div>
+            <div class="price">
+              <p>15 $</p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="/img/ironMan.jpg" />
+          <div class="de-content">
+            <div class="movie-title">
+              <h2>Iron Man 2</h2>
+            </div>
+            <div class="desript-1">
+              <p>2010</p>
+              <p>2h 4m</p>
+              <p>Action / Sci-Fi</p>
+            </div>
+            <div class="descript-2">
+              <p>
+                With the world now aware of his identity as Iron Man, Tony Stark
+                must contend with both his declining health and a vengeful mad
+                man with ties to his father's legacy.
+              </p>
+            </div>
+            <div class="stars">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star" style="color: white"></span>
+              <span class="fa fa-star" style="color: white"></span>
+            </div>
+            <div class="button">
+              <button onclick="watchMovie(this)">Watch</button>
+            </div>
+            <div class="price">
+              <p>20 $</p>
+            </div>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="/img/theGodfather.jpg" />
+          <div class="de-content">
+            <div class="movie-title">
+              <h2>The Godfather</h2>
+            </div>
+            <div class="desript-1">
+              <p>1972</p>
+              <p>2h 55m</p>
+              <p>Crime / Drama</p>
+            </div>
+            <div class="descript-2">
+              <p>
+                The aging patriarch of an organized crime dynasty in postwar New
+                York City transfers control of his clandestine empire to his
+                reluctant youngest son.
+              </p>
+            </div>
+            <div class="stars">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+            </div>
+            <div class="button">
+              <button onclick="watchMovie(this)">Watch3</button>
+            </div>
+            <div class="price">
+              <p>25 $</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="claculate">
+        <p class="gradient-border">Total Cost:</p>
+        <div class="resetBtn">
+          <button onclick="resetAll()">Reset</button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
